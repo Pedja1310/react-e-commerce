@@ -9,6 +9,7 @@ dependencies:
   react-redux: 7.2.0_89edbdcf35ebf07960559427ad340367
   react-router-dom: 5.1.2_react@16.13.0
   react-scripts: 3.4.0_node-sass@4.13.1
+  react-stripe-checkout: 2.6.3
   redux: 4.0.5
   redux-devtools-extension: 2.13.8_redux@4.0.5
   redux-logger: 3.0.6
@@ -10836,6 +10837,10 @@ packages:
         optional: true
     resolution:
       integrity: sha512-pBqaAroFoHnFAkuX+uSK9Th1uEh2GYdGY2IG1I9/7HmuEf+ls3lLCk1p2GFYRSrLMz6ieQR/SyN6TLIGK3hKRg==
+  /react-stripe-checkout/2.6.3:
+    dev: false
+    resolution:
+      integrity: sha1-MXOocLBOWjwyGgbSTNU8YDARHEU=
   /react/16.13.0:
     dependencies:
       loose-envify: 1.4.0
@@ -13305,6 +13310,7 @@ specifiers:
   react-redux: ^7.2.0
   react-router-dom: ^5.1.2
   react-scripts: 3.4.0
+  react-stripe-checkout: ^2.6.3
   redux: ^4.0.5
   redux-devtools-extension: ^2.13.8
   redux-logger: ^3.0.6
